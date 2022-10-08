@@ -1,0 +1,48 @@
+body {
+    background-color: #1E2021;
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+  
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: xxx-large;
+}
+
+.sketchContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 450px;
+    height: 450px;
+    border: 1rem solid #272727; 
+    border-radius: 10px;
+}
+
+.cell {
+    background-color: white;
+    border: 0.011em solid whitesmoke;
+
+}
+
+.pixelSize {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.label {
+    margin-top: 0;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: rgb(31, 30, 30);
+}
